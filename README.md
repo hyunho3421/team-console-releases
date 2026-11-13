@@ -5,8 +5,8 @@ Windows와 WSL에서 Claude·Codex 세션을 함께 관리하는 데스크톱 �
 ## 다운로드
 
 - [최신 버전 및 설치파일](https://github.com/hyunho3421/team-console-releases/releases/latest)
-- [0.24.2 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.24.2/TeamConsole_0.24.2_x64-setup.exe)
-- [0.24.2 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.24.2/TeamConsole_0.24.2_x64-setup.exe.sha256)
+- [0.25.0 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.25.0/TeamConsole_0.25.0_x64-setup.exe)
+- [0.25.0 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.25.0/TeamConsole_0.25.0_x64-setup.exe.sha256)
 
 ## 설치하기
 
@@ -14,6 +14,12 @@ Windows와 WSL에서 Claude·Codex 세션을 함께 관리하는 데스크톱 �
 2. 앱의 **시작 준비** 화면에서 사용할 환경과 AI를 선택합니다.
 3. **설치·로그인 도우미**로 Claude 또는 Codex를 설치하고 본인 계정으로 로그인합니다.
 4. 프로젝트를 만들고 세션을 추가합니다. 세션마다 Windows 또는 WSL을 선택할 수 있습니다.
+
+## 앱 업데이트
+
+0.25.0부터 새 버전 알림과 앱 안에서 바로 설치·재시작하는 기능을 제공합니다. 프로젝트 설정을 백업하고 실행 중인 Windows·WSL 세션에 다시 연결합니다.
+
+**0.24.2 이하 사용자는 0.25.0 설치파일을 한 번 직접 실행해 주세요.** 그다음 버전부터 앱 안에서 업데이트할 수 있습니다.
 
 ## 실행 환경
 
