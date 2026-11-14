@@ -7,8 +7,8 @@ Windows와 WSL에서 Claude·Codex 세션을 함께 관리하는 데스크톱 �
 **[설치파일 다운로드 페이지](https://hyunho3421.github.io/team-console-releases/)** — 버튼 하나로 Windows 설치파일을 받을 수 있습니다.
 
 - [최신 버전 및 설치파일](https://github.com/hyunho3421/team-console-releases/releases/latest)
-- [0.26.0 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.26.0/TeamConsole_0.26.0_x64-setup.exe)
-- [0.26.0 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.26.0/TeamConsole_0.26.0_x64-setup.exe.sha256)
+- [0.27.0 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.27.0/TeamConsole_0.27.0_x64-setup.exe)
+- [0.27.0 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.27.0/TeamConsole_0.27.0_x64-setup.exe.sha256)
 
 ## 설치하기
 
@@ -31,6 +31,8 @@ Windows와 WSL에서 Claude·Codex 세션을 함께 관리하는 데스크톱 �
 - Windows Python·PyYAML·세션 관리 도우미와 WebView2 설치 도우미를 포함합니다. CLI와 필요한 WebView2 런타임은 공식 서버에서 내려받습니다.
 
 ## 주요 기능
+
+- 상단 Settings에서 llmWiki 연동을 켜거나 끄고 Claude·Codex 다계정을 관리합니다. 세션마다 계정을 선택할 수 있습니다.
 
 - Windows·WSL 세션을 통합 목록에서 관리하고, 기존 세션을 유지한 채 다른 환경의 세션을 추가합니다.
 - Windows·WSL별 Codex 모델 목록과 모델별 추론 강도 선택을 지원합니다.
