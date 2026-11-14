@@ -7,8 +7,8 @@ Windows와 WSL에서 Claude·Codex 세션을 함께 관리하는 데스크톱 �
 **[설치파일 다운로드 페이지](https://hyunho3421.github.io/team-console-releases/)** — 버튼 하나로 Windows 설치파일을 받을 수 있습니다.
 
 - [최신 버전 및 설치파일](https://github.com/hyunho3421/team-console-releases/releases/latest)
-- [0.27.4 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.27.4/TeamConsole_0.27.4_x64-setup.exe)
-- [0.27.4 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.27.4/TeamConsole_0.27.4_x64-setup.exe.sha256)
+- [0.27.5 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.27.5/TeamConsole_0.27.5_x64-setup.exe)
+- [0.27.5 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.27.5/TeamConsole_0.27.5_x64-setup.exe.sha256)
 
 ## 설치하기
 
