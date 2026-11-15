@@ -7,11 +7,11 @@ Windows·WSL·macOS에서 Claude·Codex 세션을 함께 관리하는 데스크�
 **[설치파일 다운로드 페이지](https://hyunho3421.github.io/team-console-releases/)** — Windows와 macOS 버튼을 구분해 설치파일을 받을 수 있습니다.
 
 - [최신 버전 및 설치파일](https://github.com/hyunho3421/team-console-releases/releases/latest)
-- [0.28.0 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.0/TeamConsole_0.28.0_x64-setup.exe)
-- [0.28.0 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.0/TeamConsole_0.28.0_x64-setup.exe.sha256)
+- [0.28.1 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.1/TeamConsole_0.28.1_x64-setup.exe)
+- [0.28.1 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.1/TeamConsole_0.28.1_x64-setup.exe.sha256)
 
-- [0.28.0 macOS Apple Silicon·Intel 공용 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.0/TeamConsole_0.28.0_universal.dmg)
-- [0.28.0 macOS SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.0/TeamConsole_0.28.0_universal.dmg.sha256)
+- [0.28.1 macOS Apple Silicon·Intel 공용 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.1/TeamConsole_0.28.1_universal.dmg)
+- [0.28.1 macOS SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.1/TeamConsole_0.28.1_universal.dmg.sha256)
 
 ## 설치하기
 
@@ -26,7 +26,9 @@ Windows는 0.25.0부터 새 버전 알림과 앱 안에서 바로 설치·재시
 
 **0.24.2 이하 사용자는 최신 설치파일을 한 번 직접 실행해 주세요.** 그다음 버전부터 앱 안에서 업데이트할 수 있습니다.
 
-Mac은 새 DMG의 앱으로 교체해 업데이트합니다. 기존 프로젝트·계정·세션 설정은 유지됩니다. Mac 자동 업데이트는 아직 지원하지 않습니다.
+Mac도 0.28.1부터 새 버전 알림과 **업데이트하고 다시 시작**을 지원합니다. 서명된 공용 업데이트 파일로 앱만 교체하고, 기존 프로젝트·계정과 실행 중인 tmux 세션을 유지합니다. Apple Silicon·Intel에서 실제 설치·자동 재시작·세션 보존을 검증했습니다.
+
+**Mac 0.28.0에서 처음 업데이트할 때만 설치 후 앱을 한 번 직접 닫고 다시 열어 주세요.** 0.28.1부터는 자동으로 다시 시작합니다.
 
 ## 실행 환경
 
