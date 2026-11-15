@@ -1,6 +1,9 @@
 (() => {
   'use strict';
-  const button = document.getElementById('download');
+  const targets = [
+    { button: document.getElementById('download'), suffix: 'x64-setup.exe' },
+    { button: document.getElementById('download-macos'), suffix: 'universal.dmg' },
+  ].filter(({ button }) => button);
   const repository = 'hyunho3421/team-console-releases';
   let pending;
   let checkedAt = 0;
@@ -17,14 +20,19 @@
         const release = await response.json();
         if (release.draft || release.prerelease || !/^v\d+\.\d+\.\d+$/.test(release.tag_name)) return;
         const version = release.tag_name.slice(1);
-        const name = `TeamConsole_${version}_x64-setup.exe`;
-        const expected = `https://github.com/${repository}/releases/download/${release.tag_name}/${name}`;
-        const asset = release.assets?.find(item => item.name === name && item.state === 'uploaded' && item.browser_download_url === expected);
-        if (asset) {
-          button.href = expected;
-          button.dataset.version = version;
-          checkedAt = Date.now();
+        if (!Array.isArray(release.assets)) return;
+        for (const { button, suffix } of targets) {
+          const name = `TeamConsole_${version}_${suffix}`;
+          const expected = `https://github.com/${repository}/releases/download/${release.tag_name}/${name}`;
+          const asset = release.assets.find(item => item.name === name && item.state === 'uploaded' && item.browser_download_url === expected);
+          if (asset) {
+            button.href = expected;
+            button.dataset.version = version;
+            const label = button.querySelector('[data-version-label]');
+            if (label) label.textContent = version;
+          }
         }
+        checkedAt = Date.now();
       } catch {
         // The verified installer in the HTML remains usable without API access or JS.
       } finally {
@@ -35,15 +43,17 @@
   }
 
   void latestInstaller();
-  button.addEventListener('pointerenter', () => void latestInstaller());
-  button.addEventListener('focus', () => void latestInstaller());
-  button.addEventListener('click', async event => {
-    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return;
-    event.preventDefault();
-    if (button.getAttribute('aria-busy') === 'true') return;
-    button.setAttribute('aria-busy', 'true');
-    await latestInstaller();
-    window.location.assign(button.href);
-    button.removeAttribute('aria-busy');
-  });
+  for (const { button } of targets) {
+    button.addEventListener('pointerenter', () => void latestInstaller());
+    button.addEventListener('focus', () => void latestInstaller());
+    button.addEventListener('click', async event => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return;
+      event.preventDefault();
+      if (button.getAttribute('aria-busy') === 'true') return;
+      button.setAttribute('aria-busy', 'true');
+      await latestInstaller();
+      window.location.assign(button.href);
+      button.removeAttribute('aria-busy');
+    });
+  }
 })();
