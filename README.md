@@ -7,11 +7,11 @@ Windows·WSL·macOS에서 Claude·Codex 세션을 함께 관리하는 데스크�
 **[설치파일 다운로드 페이지](https://hyunho3421.github.io/team-console-releases/)** — Windows와 macOS 버튼을 구분해 설치파일을 받을 수 있습니다.
 
 - [최신 버전 및 설치파일](https://github.com/hyunho3421/team-console-releases/releases/latest)
-- [0.28.1 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.1/TeamConsole_0.28.1_x64-setup.exe)
-- [0.28.1 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.1/TeamConsole_0.28.1_x64-setup.exe.sha256)
+- [0.28.3 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.3/TeamConsole_0.28.3_x64-setup.exe)
+- [0.28.3 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.3/TeamConsole_0.28.3_x64-setup.exe.sha256)
 
-- [0.28.1 macOS Apple Silicon·Intel 공용 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.1/TeamConsole_0.28.1_universal.dmg)
-- [0.28.1 macOS SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.1/TeamConsole_0.28.1_universal.dmg.sha256)
+- [0.28.3 macOS Apple Silicon·Intel 공용 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.3/TeamConsole_0.28.3_universal.dmg)
+- [0.28.3 macOS SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.3/TeamConsole_0.28.3_universal.dmg.sha256)
 
 ## 설치하기
 
@@ -40,6 +40,8 @@ Mac도 0.28.1부터 새 버전 알림과 **업데이트하고 다시 시작**을
 - Windows Python·PyYAML·세션 관리 도우미와 WebView2 설치 도우미를 포함합니다. CLI와 필요한 WebView2 런타임은 공식 서버에서 내려받습니다.
 
 ## 주요 기능
+
+- Codex 작업 세션에서 별도 Git 워크트리를 선택할 수 있습니다. 앱 재실행·세션 재개·새 대화 시작에도 같은 작업 폴더를 사용하며, 원본과 워크트리의 미커밋 파일을 보존합니다.
 
 - 상단 Settings에서 llmWiki 연동을 켜거나 끄고 Claude·Codex 다계정을 관리합니다. 세션마다 계정을 선택할 수 있습니다.
 
