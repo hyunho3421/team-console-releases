@@ -7,8 +7,8 @@ Windows·WSL·macOS에서 Claude·Codex 세션을 함께 관리하는 데스크�
 **[설치파일 다운로드 페이지](https://hyunho3421.github.io/team-console-releases/)** — Windows와 macOS 버튼을 구분해 설치파일을 받을 수 있습니다.
 
 - [최신 버전 및 설치파일](https://github.com/hyunho3421/team-console-releases/releases/latest)
-- [0.28.3 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.3/TeamConsole_0.28.3_x64-setup.exe)
-- [0.28.3 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.3/TeamConsole_0.28.3_x64-setup.exe.sha256)
+- [0.28.19 Windows x64 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.19/TeamConsole_0.28.19_x64-setup.exe)
+- [0.28.19 SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.19/TeamConsole_0.28.19_x64-setup.exe.sha256)
 
 - [0.28.3 macOS Apple Silicon·Intel 공용 설치파일](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.3/TeamConsole_0.28.3_universal.dmg)
 - [0.28.3 macOS SHA-256 체크섬](https://github.com/hyunho3421/team-console-releases/releases/download/v0.28.3/TeamConsole_0.28.3_universal.dmg.sha256)
